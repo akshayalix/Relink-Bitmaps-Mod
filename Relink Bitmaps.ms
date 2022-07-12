@@ -102,7 +102,7 @@ initDefaultVariables iniFile
 
 -- Rollout Main
 rollout rlt_RelinkBitmaps ("Relink Bitmaps Mod v1") (
-	imgTag img_header "Header" width:306 height:68 tooltip:colinsennerWebpage bitmap:(openBitmap "$userScripts/Relink Bitmaps/Header.png") offset:[-17,-5]
+	imgTag img_header "Header" width:306 height:68 bitmap:(openBitmap "$userScripts/Relink Bitmaps/Header.png") offset:[-17,-5]
 	group "Saved Paths" (
 		multiListBox lst_QuickPaths height:10 width:275
 		button btn_QuickPathsAll "All" width:35 height:17 align:#left
