@@ -15,3 +15,8 @@ This is a modded version of Relink Bitman by Colin Senner.
 
   - Don't download or copy the main brach, it's the stock plugin.
   - Download the mod from branch v1 to v..... future builds.
+
+## Disclaimer
+
+ - Please Follow the above steps only, for Installation.
+ - Do not drag and drop the Relink Bitmaps Mod v#..mzp into viewport or it will throw an error.
