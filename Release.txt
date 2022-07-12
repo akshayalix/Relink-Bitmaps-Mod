@@ -14,8 +14,4 @@
  
   - Working on removing hyperlink from tooltip.
 
-## -- Disclaimer -- ##
-
-  - Please Follow the above steps only, for Installation.
-  - Do not drag and drop the Relink Bitmaps Mod v#..mzp into viewport or it will throw an error.
 
