@@ -6,7 +6,6 @@
 ## -- Goodies -- ##
 
  - Removed Donate Pop-up on launch.
- - Removed Check for updates.
  - Removed Redirected webpage links.
  - Reduced launch time by 1s.
 
