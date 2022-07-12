@@ -10,8 +10,5 @@
  - Removed Redirected webpage links.
  - Reduced launch time by 1s.
 
- ## -- Expected -- ## 
- 
-  - Working on removing hyperlink from tooltip.
 
 
