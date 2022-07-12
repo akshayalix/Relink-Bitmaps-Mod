@@ -1,15 +1,21 @@
-# -- Relink Bitmaps Mod v1 -- #
+## -- Relink Bitmaps Mod v1 -- ##
 
  - Based on Stable Release of Relink Bitmaps v2.14 by Colin Senner.
  - Mod by Alix.
 
-# -- Goodies -- #
+## -- Goodies -- ##
 
  - Removed Donate Pop-up on launch.
  - Removed Check for updates.
  - Removed Redirected webpage links.
  - Reduced launch time by 1s.
 
- # -- Expected -- # 
+ ## -- Expected -- ## 
  
   - Working on removing hyperlink from tooltip.
+
+## -- Disclaimer -- ##
+
+  - Please Follow the above steps only, for Installation.
+  - Do not drag and drop the Relink Bitmaps Mod v#..mzp into viewport.
+
