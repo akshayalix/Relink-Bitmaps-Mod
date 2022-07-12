@@ -140,7 +140,7 @@ rollout rlt_RelinkBitmaps ("Relink Bitmaps v" + (formattedPrint currentVersion f
 	on btn_QuickPathsNone pressed do ( lst_QuickPaths.selection = #{} )
 	on btn_configure pressed do ( openRolloutNextTo rlt_RelinkBitmaps rlt_Configure width:configureWindowWidth height:configureWindowHeight )
 	on btn_lowMemory pressed do ( messageBox "Low Memory Support:\n\nChecking this will force max to clear all memory while the script is relinking.\n\nUseful if you have a system with low memory or a ton of maps to relink to avoid crashing.\n\n    Note: This will impact performace negatively.  The default setting is: [off]" beep:false	)
-	on img_header mouseup do ( shellLaunch colinsennerWebpage "" )
+	-- Removed mouseUp_open webpage
 
 	on chk_allMaps changed state do (
 		rlt_MissingBitmaps.updateMissingMaps()
