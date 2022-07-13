@@ -10,10 +10,10 @@
 
  ## -- Changelog -- ##
 
-  - Redshift support added
-  - Relink Bitmaps main window is now resizable
-  - Fixed cyrillic characters not showing up in output list file
-  - Rewrote “Find in material” to be much better
+  - Redshift support added.
+  - Relink Bitmaps main window is now resizable.
+  - Fixed cyrillic characters not showing up in output list file.
+  - Rewrote “Find in material” to be much better.
  
 
 
