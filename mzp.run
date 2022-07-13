@@ -1,5 +1,5 @@
-name "Relink Bitmaps Installer"
-description "Installs Relink Bitmaps on your system"
+name "Relink Bitmaps Mod Installer"
+description "Installs Relink Bitmaps Mod on your system"
 version 2
 
 copy "C_Lib.mse" to "$userScripts\Relink Bitmaps\"
