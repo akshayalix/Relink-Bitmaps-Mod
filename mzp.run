@@ -1,1 +1,19 @@
-name "Relink Bitmaps Installer"description "Installs Relink Bitmaps on your system"version 2copy "C_Lib.mse" to "$userScripts\Relink Bitmaps\"copy "Relink_Lib.mse" to "$userScripts\Relink Bitmaps\"copy "Relink Bitmaps.mse" to "$userScripts\Relink Bitmaps\"copy "Relink Bitmaps_macro.mcr" to "$userScripts\Relink Bitmaps\"copy "InstalledMessage.ms" to "$userScripts\Relink Bitmaps\"copy "RelinkBitmaps_16i.bmp" to "$userIcons\"copy "RelinkBitmaps_24i.bmp" to "$userIcons\"copy "header.png" to "$userScripts\Relink Bitmaps\"copy "banner.jpg" to "$userScripts\Relink Bitmaps\"drop "$userScripts\Relink Bitmaps\Relink Bitmaps_macro.mcr"run "$userScripts\Relink Bitmaps\Relink Bitmaps_macro.mcr"run "$userScripts\Relink Bitmaps\InstalledMessage.ms"clear temp on MAX exit
+name "Relink Bitmaps Installer"
+description "Installs Relink Bitmaps on your system"
+version 2
+
+copy "C_Lib.mse" to "$userScripts\Relink Bitmaps\"
+copy "Relink_Lib.mse" to "$userScripts\Relink Bitmaps\"
+copy "Relink Bitmaps.mse" to "$userScripts\Relink Bitmaps\"
+copy "Relink Bitmaps_macro.mcr" to "$userScripts\Relink Bitmaps\"
+copy "InstalledMessage.ms" to "$userScripts\Relink Bitmaps\"
+copy "RelinkBitmaps_16i.bmp" to "$userIcons\"
+copy "RelinkBitmaps_24i.bmp" to "$userIcons\"
+copy "header.png" to "$userScripts\Relink Bitmaps\"
+-- Removed_copy_banner_to_path
+
+drop "$userScripts\Relink Bitmaps\Relink Bitmaps_macro.mcr"
+run "$userScripts\Relink Bitmaps\Relink Bitmaps_macro.mcr"
+run "$userScripts\Relink Bitmaps\InstalledMessage.ms"
+
+clear temp on MAX exit
