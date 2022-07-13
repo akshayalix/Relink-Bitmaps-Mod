@@ -1,0 +1,20 @@
+## -- Relink Bitmaps Mod v2 -- ##
+
+ - Based on Stable Release of Relink Bitmaps v2.15 by Colin Senner.
+ - Mod by Alix.
+
+## -- Goodies -- ##
+
+ - Removed Donate Pop-up on launch.
+ - Removed Redirected webpage links.
+
+ ## -- Changelog -- ##
+
+  - Redshift support added
+  - Relink Bitmaps main window is now resizable
+  - Fixed cyrillic characters not showing up in output list file
+  - Rewrote “Find in material” to be much better
+ 
+
+
+
