@@ -108,8 +108,8 @@ initDefaultVariables iniFile
 -- Rollout Main
 
 rollout rlt_RelinkBitmaps ("Relink Bitmaps Mod v2") (
-	imgTag img_bg "bg" width:(rlt_RelinkBitmaps.width + 20) height:68 tooltip:colinsennerWebpage bitmap:(bitmap 50 50 color:(color 26 170 245)) offset:[-15,-5] align:#left
-	imgTag img_header "Header" width:306 height:68 tooltip:colinsennerWebpage bitmap:(openBitmap "$userScripts/Relink Bitmaps/Header.png") offset:[-17,-75]
+	imgTag img_bg "bg" width:(rlt_RelinkBitmaps.width + 20) height:68 tooltip:("By Alix") bitmap:(bitmap 50 50 color:(color 26 170 245)) offset:[-15,-5] align:#left
+	imgTag img_header "Header" width:306 height:68 tooltip:("By Alix") bitmap:(openBitmap "$userScripts/Relink Bitmaps/Header.png") offset:[-17,-75]
 
 	-- Saved Paths
 	groupBox grp_saved_paths "Saved Paths Directory"  height:240 offset:[-9,0] width:(rlt_RelinkBitmaps.width - 10)
