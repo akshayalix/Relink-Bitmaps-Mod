@@ -185,8 +185,8 @@ rollout rlt_RelinkBitmaps ("Relink Bitmaps v" + (formattedPrint currentVersion f
 	on btn_QuickPathsAll pressed do ( lst_QuickPaths.selection = #{1..(lst_QuickPaths.items.count)} )
 	on btn_QuickPathsNone pressed do ( lst_QuickPaths.selection = #{} )
 	on btn_configure pressed do ( openRolloutNextTo rlt_RelinkBitmaps rlt_Configure width:configureWindowWidth height:configureWindowHeight )
-	on img_header mouseup do ( shellLaunch colinsennerWebpage "" )
-	on img_bg mouseup do ( shellLaunch colinsennerWebpage "" )
+	-- Removed
+	-- Removed
 
 	on chk_allMaps changed state do (
 		rlt_MissingBitmaps.updateMissingMaps()
