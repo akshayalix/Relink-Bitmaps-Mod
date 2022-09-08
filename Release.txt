@@ -1,6 +1,6 @@
 ## -- Relink Bitmaps Mod v2 -- ##
 
- - Based on Stable Release of Relink Bitmaps v2.15 by Colin Senner.
+ - Based on Stable Release of Relink Bitmaps v2.16 by Colin Senner.
  - Mod by Alix.
 
 ## -- Goodies -- ##
@@ -10,10 +10,11 @@
 
  ## -- Changelog -- ##
 
-  - Redshift support added.
-  - Relink Bitmaps main window is now resizable.
-  - Fixed cyrillic characters not showing up in output list file.
-  - Rewrote “Find in material” to be much better.
+  - Support for Substance sbsar files
+  - Support for OSL files with OSLPath parameter
+  - Now correctly handles project / external paths
+  - Fixed “Delete all missing bitmaps” which was broken
+  - Fixed crash on .width in Max 2018
  
 
 
