@@ -76,7 +76,7 @@ global banner_image_path = getDir #userscripts + "\\Relink Bitmaps\\banner.jpg"
 global banner_image_url = "https://www.greattalksaboutphotorealism.com/relink-bitmaps-discount-page"
 
 -- Version
-global currentVersion = 2.16
+global currentVersion = 3
 
 -- Donate button link
 global donateURL = "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=colin%2esenner%40gmail%2ecom&lc=US&item_name=Relink%20Bitmaps%20Script&item_number=1002&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"
@@ -112,7 +112,7 @@ initDefaultVariables iniFile
 
 -- Rollout Main
 
-rollout rlt_RelinkBitmaps ("Relink Bitmaps v" + (formattedPrint currentVersion format:".2f")) (
+rollout rlt_RelinkBitmaps ("Relink Bitmaps Mod v" + (formattedPrint currentVersion format:".2f")) (
 	imgTag img_bg "bg" width:(rlt_RelinkBitmaps.width + 20) height:68 tooltip:colinsennerWebpage bitmap:(bitmap 50 50 color:(color 26 170 245)) offset:[-15,-5] align:#left
 	imgTag img_header "Header" width:306 height:68 tooltip:("By Alix") bitmap:(openBitmap "$userScripts/Relink Bitmaps/header.png") offset:[-17,-75]
 
