@@ -1,0 +1,1 @@
+macroScript RelinkBitmaps category:"ColinScripts" tooltip:"Relink Bitmaps" Icon:#("RelinkBitmaps",1) (	fileIn ((getDir #userScripts)+"\\Relink Bitmaps\\Relink Bitmaps.mse") quiet:true)
