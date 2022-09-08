@@ -10,7 +10,7 @@ copy "InstalledMessage.ms" to "$userScripts\Relink Bitmaps\"
 copy "RelinkBitmaps_16i.bmp" to "$userIcons\"
 copy "RelinkBitmaps_24i.bmp" to "$userIcons\"
 copy "header.png" to "$userScripts\Relink Bitmaps\"
-copy "banner.jpg" to "$userScripts\Relink Bitmaps\"
+
 
 drop "$userScripts\Relink Bitmaps\Relink Bitmaps_macro.mcr"
 run "$userScripts\Relink Bitmaps\Relink Bitmaps_macro.mcr"
