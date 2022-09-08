@@ -229,10 +229,7 @@ rollout rlt_RelinkBitmaps ("Relink Bitmaps v" + (formattedPrint currentVersion f
 		-- Opens the missing bitmaps dialog next to it
 		openRolloutNextTo rlt_RelinkBitmaps rlt_MissingBitmaps width:missingMapsWindowWidth height:missingMapsWindowHeight style:#(#style_titlebar, #style_border, #style_sysmenu, #style_resizing)
 
-		if validateLicFile (returnLicenseFile "Relink Bitmaps.lic") == false then (
-			-- If  the file isn't valid
-			openDialog rlt_donate width:260 height:200 posX:((GetDialogPos rlt_RelinkBitmaps).x + 200) posY:((GetDialogPos rlt_RelinkBitmaps).y + 100) modal:false
-		)
+		-- Removed
 	)
 
 	on rlt_RelinkBitmaps moved xy do (
